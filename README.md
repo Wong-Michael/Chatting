@@ -15,6 +15,11 @@ Minimum Android SDK version : 21 Lollipop
 
 * [Android Studio](https://developer.android.com/studio/)
 
+## MVP Architecture
+
+One of the main advantages of MVP is that it decouples the view from the business logic. This makes modifications to the view easier to implement and allows unit testing of views
+A real situation that the architecture helped with was when I had to convert a android.widget based view to a [Preferences](https://developer.android.com/guide/topics/ui/settings/) based view.
+I was able to reuse all my existing code in the Presenter even though the View file was redesigned.
 
 ## Acknowledgments
 

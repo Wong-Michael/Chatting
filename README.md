@@ -11,12 +11,6 @@ Minimum Android SDK version : 21 Lollipop
 1. Clone this repo and open it in Android Studio
 2. Run the app on any connected device
 
-And repeat
-
-```
-until finished
-```
-
 ## Built With
 
 * [Android Studio](https://developer.android.com/studio/)
